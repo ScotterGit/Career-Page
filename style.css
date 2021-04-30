@@ -2,21 +2,48 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
 body {
   font-family:'Reem Kufi';
   line-height: 1.6;
   min-height: 100vh;
   display: grid;
   place-items: center;
-  margin: 0;
+  margin: 1rem;
 }
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  max-width: 1000px
+}
+
+/* card styles */
+.card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: flex;
+  margin: 1em;
+  width:270px
+}
+
+.department-title {
+
+}
+
 
 .btn {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 4px 12px;
   text-decoration: none;
   font-weight: bolder;
   background-color: #fde155;
   border-radius: 100px; 
   color: black;
+  box-shadow: 3px 3px 5px grey;
+  margin: 0 0 0.5em 1.5em
 }
