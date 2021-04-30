@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Reem Kufi';
+  line-height: 1.6;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: #fde155;
+  border-radius: 100px; 
+  color: black;
+}
